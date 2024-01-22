@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 
 const corsOptions = {
-  origin: "http://127.0.0.1:5501",
+  origin: "https://stupendous-fairy-c90929.netlify.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
